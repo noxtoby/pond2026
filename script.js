@@ -18,7 +18,6 @@ const programMarkup = pondContent.program.map((item) => `
   <article class="schedule-item">
     <time class="schedule-date">${item.date}</time>
     <div><h3>${item.title}</h3><p>${item.text}</p></div>
-    <span class="item-arrow" aria-hidden="true">→</span>
   </article>
 `).join('');
 

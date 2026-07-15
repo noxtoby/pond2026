@@ -8,7 +8,7 @@ The visual language is clear, formal and coastal: a restrained conference identi
 
 ## Visual direction
 
-The design uses the useful structural cues of established conference websites: a clean institutional masthead, one strong Nice coastline banner and a prominent navigation row. A compact editorial grid, deep navy surfaces and a restrained red accent make the result distinct from the supplied reference.
+The design uses the useful structural cues of established conference websites: a clean institutional masthead, one strong Nice coastline banner and a prominent navigation row. Editorial serif typography, warm white space, fine rules and a restrained red accent make the result distinct from the supplied reference.
 
 The POND wordmark and overall hierarchy are ready to receive the confirmed workshop title, dates and programme.
 
