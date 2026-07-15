@@ -1,1 +1,12 @@
-window.pondContent={program:[{date:"DAY 01",title:"[Session title]",text:"[Session description]"},{date:"DAY 02",title:"[Session title]",text:"[Session description]"},{date:"DAY 03",title:"[Session title]",text:"[Session description]"}],news:[{date:"[DATE]",title:"[News item title]",text:"[Short news item description]"},{date:"[DATE]",title:"[News item title]",text:"[Short news item description]"}]};
+window.pondContent = {
+  program: [
+    { date: "[TIME]", title: "[Opening session title]", text: "[Session description, speakers, or room details]" },
+    { date: "[TIME]", title: "[Programme session title]", text: "[Session description, speakers, or room details]" },
+    { date: "[TIME]", title: "[Closing session title]", text: "[Session description, speakers, or room details]" }
+  ],
+  news: [
+    { date: "[DATE]", title: "[News item title]", text: "[Short news item description]" },
+    { date: "[DATE]", title: "[News item title]", text: "[Short news item description]" },
+    { date: "[DATE]", title: "[News item title]", text: "[Short news item description]" }
+  ]
+};
