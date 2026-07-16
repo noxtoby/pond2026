@@ -1,3 +1,29 @@
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+if (window.location.hash) {
+  history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+}
+
+const resetScroll = () => {
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+  window.scrollTo(0, 0);
+};
+
+resetScroll();
+window.addEventListener('DOMContentLoaded', resetScroll);
+window.addEventListener('load', () => {
+  resetScroll();
+  requestAnimationFrame(resetScroll);
+  setTimeout(resetScroll, 0);
+});
+window.addEventListener('pageshow', () => {
+  resetScroll();
+  requestAnimationFrame(resetScroll);
+});
+
 const menu = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.main-nav');
 const navLinks = document.querySelectorAll('.nav-links a');
