@@ -2,7 +2,7 @@
 
 ## Positioning
 
-POND 2026 is an academic workshop hosted at Inria Côte d’Azur in collaboration with UCL. Its final title, dates, scope and programme remain placeholders until the organisers confirm them.
+POND 2026 is a workshop hosted at the Inria Center at University Côte d’Azur in collaboration with UCL. Its dates, scope and programme remain placeholders until the organisers confirm them.
 
 The visual language is clear, formal and coastal: a restrained conference identity that gives the Nice panorama a central role while keeping practical information easy to find.
 
