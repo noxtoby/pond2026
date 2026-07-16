@@ -14,7 +14,7 @@ The POND wordmark and overall hierarchy are ready to receive the confirmed works
 
 ## Content model
 
-All homepage programme and news entries live in `data/content.js` as short arrays. To add an item, copy an object and edit its `date`, `title` and `text` fields. The page renders the lists automatically.
+The organising committee, programme and news entries live in `data/content.js` as short arrays. To add an item, copy an object and edit its fields. The page renders the lists automatically.
 
 The rest of the first-draft copy is intentionally kept in `index.html` so it can be edited without a build step. This is a plain static site: no framework, package manager or server is required.
 

@@ -29,5 +29,10 @@ const newsMarkup = pondContent.news.map((item) => `
   </article>
 `).join('');
 
+const organiserMarkup = pondContent.organisers.map((organiser) => `
+  <p><strong>${organiser.name}</strong><span>${organiser.affiliation}</span></p>
+`).join('');
+
+document.querySelector('#organiser-list').innerHTML = organiserMarkup;
 document.querySelector('#program-list').innerHTML = programMarkup;
 document.querySelector('#news-list').innerHTML = newsMarkup;

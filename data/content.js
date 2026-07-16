@@ -1,4 +1,10 @@
 window.pondContent = {
+  organisers: [
+    { name: "[Organiser name]", affiliation: "[Institution]" },
+    { name: "[Organiser name]", affiliation: "[Institution]" },
+    { name: "[Organiser name]", affiliation: "[Institution]" },
+    { name: "[Organiser name]", affiliation: "[Institution]" }
+  ],
   program: [
     { date: "[TIME]", title: "[Opening session title]", text: "[Session description, speakers, or room details]" },
     { date: "[TIME]", title: "[Programme session title]", text: "[Session description, speakers, or room details]" },
