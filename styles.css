@@ -6,7 +6,7 @@
   --paper: #fff;
   --grey: #f1f1f2;
   --line: #d9d9dd;
-  --shell: min(1180px, calc(100% - 64px));
+  --shell: min(1260px, calc(100% - 48px));
 }
 
 * { box-sizing: border-box; }
@@ -31,7 +31,7 @@ img { display: block; max-width: 100%; }
 .partner-divider { width: 1px; height: 34px; background: var(--line); }
 
 .hero-main { height: 448px; display: grid; grid-template-columns: minmax(450px, 42%) 1fr; border-top: 1px solid #e2e2e4; border-bottom: 1px solid #e2e2e4; }
-.hero-copy { padding: 55px 48px 44px max(40px, calc((100vw - 1180px) / 2)); display: flex; flex-direction: column; background: #f5f5f3; }
+.hero-copy { padding: 55px 48px 44px max(32px, calc((100vw - 1260px) / 2)); display: flex; flex-direction: column; background: #f5f5f3; }
 .kicker { margin: 0 0 38px; color: var(--red); }
 .hero h1 { max-width: 520px; margin: 0; color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(40px, 3.55vw, 50px); font-weight: 700; line-height: 1.01; letter-spacing: -.035em; }
 .hero h1 span { display: block; white-space: nowrap; }
@@ -110,7 +110,7 @@ img { display: block; max-width: 100%; }
 .footer a:hover { color: #fff; }
 
 @media (max-width: 900px) {
-  :root { --shell: min(100% - 40px, 1180px); }
+  :root { --shell: min(100% - 40px, 1260px); }
   .masthead { min-height: 112px; }
   .partners-label { display: none; }
   .partner-logos img:first-child { width: 105px; }
