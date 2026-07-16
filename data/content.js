@@ -1,9 +1,9 @@
 window.pondContent = {
   organisers: [
-    { name: "[Organiser name]", affiliation: "[Institution]" },
-    { name: "[Organiser name]", affiliation: "[Institution]" },
-    { name: "[Organiser name]", affiliation: "[Institution]" },
-    { name: "[Organiser name]", affiliation: "[Institution]" }
+    { name: "John Kalkhof", affiliation: ["Inria Center at University Côte d’Azur"] },
+    { name: "Lawrence Binding", affiliation: ["University College London"] },
+    { name: "Marco Lorenzi", affiliation: ["Inria Center at University Côte d’Azur"] },
+    { name: "Neil Oxtoby", affiliation: ["University College London"] }
   ],
   program: [
     { date: "[TIME]", title: "[Opening session title]", text: "[Session description, speakers, or room details]" },

@@ -30,7 +30,7 @@ const newsMarkup = pondContent.news.map((item) => `
 `).join('');
 
 const organiserMarkup = pondContent.organisers.map((organiser) => `
-  <p><strong>${organiser.name}</strong><span>${organiser.affiliation}</span></p>
+  <p><strong>${organiser.name}</strong><span>${organiser.affiliation.join('<br>')}</span></p>
 `).join('');
 
 document.querySelector('#organiser-list').innerHTML = organiserMarkup;

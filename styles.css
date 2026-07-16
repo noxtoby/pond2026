@@ -48,7 +48,7 @@ img { display: block; max-width: 100%; }
 .organiser-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 30px; }
 .organiser-list p { margin: 0; min-width: 0; }
 .organiser-list strong { display: block; overflow: hidden; color: var(--navy); font-size: 12px; line-height: 1.3; text-overflow: ellipsis; white-space: nowrap; }
-.organiser-list span { display: block; margin-top: 3px; overflow: hidden; color: var(--muted); font-size: 10px; line-height: 1.3; text-overflow: ellipsis; white-space: nowrap; }
+.organiser-list span { display: block; margin-top: 3px; color: var(--muted); font-size: 10px; line-height: 1.35; }
 
 .main-nav { position: sticky; top: 0; z-index: 10; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, .97); }
 .nav-inner { min-height: 68px; display: flex; align-items: stretch; }
