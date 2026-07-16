@@ -86,7 +86,7 @@ img { display: block; max-width: 100%; }
 .side-action.primary { color: #fff; border-color: var(--red); background: var(--red); }
 .side-action span { font-size: 9px; font-weight: 800; opacity: .65; }
 .side-action strong { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: 700; }
-.side-action i { font-size: 20px; font-style: normal; }
+.side-icon { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.65; stroke-linecap: round; stroke-linejoin: round; }
 .side-action:hover { color: #fff; background: var(--navy); }
 .side-panel { margin-top: 8px; padding: 29px 25px; color: #fff; border-radius: 4px; background: var(--navy); }
 .panel-label { margin: 0 0 15px; color: #c6c3d1; font-size: 9px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
