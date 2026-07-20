@@ -58,7 +58,6 @@ img { display: block; max-width: 100%; }
 .nav-brand { width: 120px; display: none; align-items: center; color: var(--red); font-size: 12px; font-weight: 900; text-decoration: none; }
 .nav-links { width: 100%; display: flex; align-items: stretch; gap: 46px; }
 .nav-links a { position: relative; padding: 26px 0 21px; color: var(--navy); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0; text-decoration: none; }
-.nav-links a:last-child { margin-left: auto; }
 .nav-links a::after { content: ""; position: absolute; bottom: -1px; left: 0; width: 100%; height: 3px; background: var(--red); transform: scaleX(0); transform-origin: left; transition: transform .18s ease; }
 .nav-links a:hover::after, .nav-links a[aria-current="page"]::after { transform: scaleX(1); }
 .menu-toggle { display: none; }
@@ -77,6 +76,19 @@ img { display: block; max-width: 100%; }
 .home-section > header { margin-bottom: 28px; padding-bottom: 17px; display: flex; align-items: end; justify-content: space-between; gap: 30px; border-bottom: 1px solid var(--navy); }
 .home-section > header p { margin: 0 0 5px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .home-section > header h2 { margin: 0; color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: 37px; font-weight: 700; line-height: 1.05; }
+.section-intro { max-width: 760px; margin: 0 0 30px; color: #343439; font-size: 16px; line-height: 1.75; }
+.topic-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.topic-list li { position: relative; padding: 17px 18px 17px 34px; border-bottom: 1px solid var(--line); color: #3f3f44; font-size: 14px; line-height: 1.55; }
+.topic-list li::before { content: ""; position: absolute; top: 25px; left: 4px; width: 7px; height: 7px; border-radius: 50%; background: var(--red); }
+.call-details { margin-top: 34px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 4px; background: #fff; }
+.call-details div { min-height: 108px; padding: 23px; border-right: 1px solid var(--line); }
+.call-details div:last-child { border-right: 0; }
+.call-details span { display: block; margin-bottom: 13px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.call-details strong { color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.35; }
+.visit-copy { columns: 2; column-gap: 48px; }
+.visit-copy p { margin: 0 0 22px; break-inside: avoid; color: #343439; font-size: 15px; line-height: 1.72; }
+.map-link { margin-top: 16px; padding: 17px 0; display: flex; justify-content: space-between; border-top: 1px solid var(--navy); border-bottom: 1px solid var(--navy); color: var(--navy); font-size: 13px; font-weight: 700; text-decoration: none; }
+.map-link:hover { color: var(--red); }
 .schedule-list, .news-grid { border-top: 1px solid var(--line); }
 .schedule-item, .news-item { min-height: 110px; padding: 25px 0; display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 28px; align-items: start; border-bottom: 1px solid var(--line); }
 .schedule-date, .news-date { padding-top: 5px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
@@ -125,6 +137,9 @@ img { display: block; max-width: 100%; }
   .sidebar { position: static; }
   .news-item { grid-template-columns: 105px 1fr; }
   .news-item p { grid-column: 2; }
+  .call-details { grid-template-columns: 1fr; }
+  .call-details div, .call-details div:last-child { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .call-details div:last-child { border-bottom: 0; }
 }
 
 @media (max-width: 680px) {
@@ -163,6 +178,7 @@ img { display: block; max-width: 100%; }
   .home-layout { grid-template-columns: 1fr; gap: 58px; }
   .welcome-section h2 { margin-bottom: 30px; font-size: 42px; }
   .welcome-copy p { font-size: 15px; }
+  .visit-copy { columns: 1; }
   .home-section { padding-top: 58px; }
   .home-section > header { display: block; }
   .home-section > header p { margin-bottom: 9px; }
