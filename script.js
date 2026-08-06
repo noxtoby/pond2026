@@ -40,7 +40,8 @@ navLinks.forEach((link) => {
   });
 });
 
-const programMarkup = pondContent.program.map((item) => `
+const programMarkup = pondContent.program.map((item, index) => `
+  ${index === 0 || item.day !== pondContent.program[index - 1].day ? `<h3 class="schedule-day">${item.day}</h3>` : ''}
   <article class="schedule-item">
     <time class="schedule-date">${item.date}</time>
     <div><h3>${item.title}</h3><p>${item.text}</p></div>

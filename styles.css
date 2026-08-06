@@ -85,11 +85,15 @@ img { display: block; max-width: 100%; }
 .call-details div:last-child { border-right: 0; }
 .call-details span { display: block; margin-bottom: 13px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .call-details strong { color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.35; }
+.call-details strong a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.call-details strong a:hover { color: var(--red); }
+.call-details small { margin-top: 7px; display: block; color: var(--muted); font-size: 11px; line-height: 1.4; }
 .visit-copy { columns: 2; column-gap: 48px; }
 .visit-copy p { margin: 0 0 22px; break-inside: avoid; color: #343439; font-size: 15px; line-height: 1.72; }
 .map-link { margin-top: 16px; padding: 17px 0; display: flex; justify-content: space-between; border-top: 1px solid var(--navy); border-bottom: 1px solid var(--navy); color: var(--navy); font-size: 13px; font-weight: 700; text-decoration: none; }
 .map-link:hover { color: var(--red); }
 .schedule-list, .news-grid { border-top: 1px solid var(--line); }
+.schedule-day { margin: 0; padding: 28px 0 15px; border-bottom: 1px solid var(--navy); color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: 24px; line-height: 1.2; }
 .schedule-item, .news-item { min-height: 110px; padding: 25px 0; display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 28px; align-items: start; border-bottom: 1px solid var(--line); }
 .schedule-date, .news-date { padding-top: 5px; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .schedule-item h3, .news-item h3 { margin: 0 0 8px; color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: 20px; line-height: 1.25; }
