@@ -32,6 +32,6 @@ window.pondContent = {
   ],
   news: [
     { date: "July 2026", title: "Save the date", text: "POND 2026 will take place on November 12–13, 2026, at the Inria Center at Université Côte d’Azur in Sophia Antipolis." },
-    { date: "July 2026", title: "Call for abstracts announced", text: "Abstract submissions are invited for the poster and teaser sessions. The submission deadline is October 15, 2026." }
+    { date: "July 2026", title: "Call for abstracts announced", text: "Abstract submissions (approximately one A4 page, including figures) are invited for the poster and teaser sessions. The submission deadline is October 15, 2026." }
   ]
 };
